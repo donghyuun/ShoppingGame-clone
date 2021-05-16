@@ -1,0 +1,86 @@
+:root {
+  --color-black: #3f454d;
+  --color-white: #ffffff;
+  --color-blue: #3b88c3;
+  --color-yellow: #fbbe28;
+  --color-pink: #fd7f84;
+  --color-light-grey: #dfdfdf;
+}
+
+*{
+  color:#3f454d;
+  background: #3f454d;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.wrapper{
+  max-width: 800px;
+  margin:0 auto;
+}
+.logo{
+  text-align: center;
+  margin-top:3rem;
+}
+.logo img{
+  width: 100px;
+  height: 100px;
+}
+.header{
+  margin:0 auto;
+  margin-top:3rem;
+  display: flex;
+  justify-content: center;
+}
+.header img{
+  cursor: pointer;
+  margin: 0 18px;
+}
+.header button{
+  cursor: pointer;
+  margin:0 18px;
+}
+.playground{
+  font-family: 'Newsreader', serif;
+  font-size:18px;
+  margin-top:3rem;
+  margin-left: auto ;
+  margin-right: auto;
+  height:500px;
+  overflow-y: scroll;
+}
+.playground ul li{
+  display: flex;
+  align-items: center;
+  background-color:#ffffff;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.playground img{
+  margin: 6px 18px;
+  background-color: transparent;
+}
+
+.blue{
+  background-color:#3b88c3;
+  width: 100px;
+  height:100px;
+  border-radius: 5px;
+  border-style: none;
+}
+.yellow{
+  background-color: #fbbe28;
+  width:100px;
+  height:100px;
+  border-radius: 5px;
+  border-style: none;
+
+}
+.pink{
+  background-color: #fd7f84;
+  width:100px;
+  height:100px;
+  border-radius: 5px;
+  border-style: none;
+}
